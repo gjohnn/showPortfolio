@@ -1,0 +1,17 @@
+*{
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+
+header{
+    background-color: black;
+}
+
+main{
+    background-color: darkgray
+}
+
+footer{
+    background: black;
+}

@@ -1,22 +1,8 @@
-body{
-    color: white;
-    background: #000;
+html, body{
+    height: 100%;
 }
-header{
-    background: purple;
-}
-
-.header_in{
-    display: flex;
-    justify-content: space-between;
-}
-
-.portfolio{
-    display: flex;
-
-    justify-content: space-around;
-}
-
-footer{
-    background: pink;
+.layout{
+    min-height: 100%;
+    display: grid;
+    grid-template-rows: 50px auto 50px;
 }

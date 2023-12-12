@@ -1,13 +1,51 @@
-html, body{
-    height: 100%;
-}
-.layout{
-    min-height: 100%;
-    display: grid;
-    grid-template-rows: 50px auto 50px;
+html,
+body {
+  height: 100%;
 }
 
-.footer_in{
-    margin-top: 10px;
-    text-align: center;
+/* grid, header and footer*/
+.layout {
+  min-height: 100%;
+  display: grid;
+  grid-template-rows: 55px auto 50px;
+}
+
+.header_in {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer_in {
+  margin-top: 10px;
+  text-align: center;
+}
+
+/*main - expose github projects*/
+
+.sections_languages {
+
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  grid-template-rows:150px;
+  grid-template-columns: 100px 100px 100px;
+}
+.section_python > a > img {
+  width: 100px;
+}
+.section_java > a > img {
+  width: 140px;
+  margin-left: -18px;
+}
+.section_react > a > img {
+  width: 100px;
+}
+
+@media only screen and (max-width: 1000px) {
+  .sections_languages {
+    grid-template-rows:150px 150px 150px;
+    grid-template-columns: 100px;
+}
 }

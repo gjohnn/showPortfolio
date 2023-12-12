@@ -5,7 +5,7 @@
 }
 
 header{
-    background-color: black;
+    background-color: #273036;
 }
 
 main{
@@ -13,5 +13,12 @@ main{
 }
 
 footer{
-    background: black;
+    background: #273036;
+    margin: 0;
+    padding: 0;
+}
+
+footer > svg{
+    position: absolute;
+    bottom: 45px;
 }

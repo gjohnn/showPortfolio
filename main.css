@@ -6,3 +6,8 @@ html, body{
     display: grid;
     grid-template-rows: 50px auto 50px;
 }
+
+.footer_in{
+    margin-top: 10px;
+    text-align: center;
+}

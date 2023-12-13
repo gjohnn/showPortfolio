@@ -2,7 +2,10 @@ html,
 body {
   height: 100%;
 }
-
+nav {
+  background-color: black;
+  opacity: 0.4;
+}
 /* grid, header and footer*/
 .layout {
   min-height: 100%;
@@ -35,6 +38,18 @@ body {
 .section_python > a > img {
   width: 100px;
 }
+
+.section_python > a :hover{
+  width: 120px;
+}
+.section_java > a :hover{
+  width: 170px;
+}
+.section_react > a :hover{
+  width: 120px;
+}
+
+
 .section_java > a > img {
   width: 140px;
   margin-left: -18px;
@@ -48,4 +63,8 @@ body {
     grid-template-rows:150px 150px 150px;
     grid-template-columns: 100px;
 }
+.header_in {
+    display: flex;
+    flex-direction: row;
+  }
 }
